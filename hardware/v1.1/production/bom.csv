@@ -1,0 +1,11 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2",0603,2,1uF,
+"D1, D2",0603,2,LED,
+J1,USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,USB_C_Receptacle_USB2.0,
+J2,PinHeader_2x04_P2.54mm_Horizonal_Edge,1,Conn_02x04_Odd_Even,
+"R1, R2",0603,2,22R,
+"R3, R4",0603,2,4K7,
+"TP1, TP2",TestPoint_Pad_D1.0mm,2,SWCLK,
+TP3,TestPoint_Pad_D1.0mm,1,GND,
+U1,QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm,1,MCU,
+U2,SOT-23,1,XC6206PxxxMR,
