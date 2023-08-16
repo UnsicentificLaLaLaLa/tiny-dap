@@ -1,0 +1,6 @@
+[submodule "software/third-party/tinyusb"]
+	path = software/third-party/tinyusb
+	url = https://github.com/hathach/tinyusb.git
+[submodule "software/third-party/CMSIS_5"]
+	path = software/third-party/CMSIS_5
+	url = https://github.com/ARM-software/CMSIS_5.git

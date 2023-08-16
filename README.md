@@ -24,7 +24,7 @@
 
 - software
 
-    tiny-dap 的软件实现，todo
+    tiny-dap 的软件实现，基于 MM32F0162D4Q。
 
 ## 适配芯片
 
