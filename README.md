@@ -1,37 +1,32 @@
 # tiny-dap
 
-#### 介绍
-基于 TinyUSB 和 CMSIS_5 实现的一个带有 UART 和 SWD 调试接口的 CMSIS-DAP 工具
+[TOC]
 
-#### 软件架构
-软件架构说明
+## 介绍
 
+基于 TinyUSB 和 CMSIS-5 实现的 CMSIS-DAP，支持 SWD 调试接口和串口通信。
 
-#### 安装教程
+选择 TinyUSB 作为协议栈的原因是 TinyUSB 开源免费，且适配多家 MCU，具有良好的通用性。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+基于 CMSIS-5 实现 CMSIS-DAP 可以降低移植 DapLink 的难度，降低实现门槛。
 
-#### 使用说明
+## 文件结构
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- hardware
 
-#### 参与贡献
+    - v1.x
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+        tiny-dap 的硬件实现，使用 KiCad 7.0 设计，已生成生产文件和原理图。
 
+        - production
 
-#### 特技
+            使用 KiCad 嘉立创提供的插件生成的生产文件。
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- software
+
+    tiny-dap 的软件实现，todo
+
+## 适配芯片
+
+目前计划采用 MM32F0162D4Q 作为 tiny-dap 的 MCU，后续也将计划在更多 QFN32 芯片上实现 tiny-dap，如果有精力的话。
+
